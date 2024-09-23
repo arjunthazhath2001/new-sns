@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
+import { ProductItem, HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -16,34 +16,96 @@ function Navbar({ className }: { className?: string }) {
             </Link>
 
             
-                <MenuItem setActive={setActive} active={active} item="About">
-                <div className="flex flex-col space-y-4 text-sm shadow-none">
-                    <HoveredLink href="/web-dev">Our Leaders</HoveredLink>
-                    <HoveredLink href="/interface-design">Industries</HoveredLink>
-                    <HoveredLink href="/seo">News Room</HoveredLink>
-                    <HoveredLink href="/branding">Blogs</HoveredLink>
-                    <HoveredLink href="/branding">SPINE</HoveredLink>
-                </div>    
-                </MenuItem>
-            
-            
-                <MenuItem setActive={setActive} active={active} item="Programmes">
-                <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Arts & Science</HoveredLink>
-                    <HoveredLink href="/interface-design">Engineering & Technology</HoveredLink>
-                    <HoveredLink href="/seo">Paramedical Institutions</HoveredLink>
-                    <HoveredLink href="/branding">CBSE School</HoveredLink>
-                    <HoveredLink href="/branding">College of Education</HoveredLink>
-                </div>
-                </MenuItem>
-            
-            
-                <MenuItem setActive={setActive} active={active} item="Careers">
-                <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="/web-dev">Jobs</HoveredLink>
-                    <HoveredLink href="/interface-design">Internships</HoveredLink>
-                </div>    
-                </MenuItem>
+            <MenuItem setActive={setActive} active={active} item="About">
+          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+            <ProductItem
+              title="Our Leaders"
+              href="#"
+              src="/images/dropdown1.png"
+              description="Meet the visionary leaders behind our institution"
+            />
+            <ProductItem
+              title="Differentiators"
+              href="#"
+              src="/images/dropdown2.png"
+              description="Discover what sets our institution apart"
+            />
+            <ProductItem
+              title="Student Life"
+              href="#"
+              src="/images/dropdown3.png"
+              description="Experience the vibrant student life at SNS"
+            />
+            <ProductItem
+              title="Publications"
+              href="#"
+              src="/images/dropdown4.png"
+              description="Explore for the latest insights and updates at SNS"
+            />
+          </div>
+
+
+
+        </MenuItem>
+            <MenuItem setActive={setActive} active={active} item="Careers">
+          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+            <ProductItem
+              title="Jobs at SNS"
+              href="#"
+              src="/images/jobs1.png"
+              description="Explore jobs at SNS Groups"
+            />
+            <ProductItem
+              title="Internships"
+              href="#"
+              src="/images/jobs2.png"
+              description="Internship openings for freshers"
+            />
+
+            <ProductItem
+              title="Jobs for Alumni"
+              href="#"
+              src="/images/jobs3.png"
+              description="Jobs curated for SNS Alumni"
+            />
+            <ProductItem
+              title="Non-alumni Jobs"
+              href="#"
+              src="/images/jobs4.png"
+              description="Jobs curated for Non-SNS students"
+            />
+          </div>
+        </MenuItem>
+
+        <MenuItem setActive={setActive} active={active} item="News">
+          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+            <ProductItem
+              title="Upcoming Events"
+              href="#"
+              src="/images/news1.png"
+              description="What's next at SNS?"
+            />
+            <ProductItem
+              title="Recent Events"
+              href="#"
+              src="/images/news2.png"
+              description="Recent happenings at SNS"
+            />
+
+            <ProductItem
+              title="Student Achievements"
+              href="#"
+              src="/images/news3.png"
+              description="Recent achievements of SNS students"
+            />
+            <ProductItem
+              title="Media Coverage"
+              href="#"
+              src="/images/news4.png"
+              description="SNS in newspapers & media"
+            />
+          </div>
+        </MenuItem>
             
         </Menu>
     </div>

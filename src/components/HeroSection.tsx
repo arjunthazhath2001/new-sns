@@ -52,12 +52,13 @@ export default function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }} // Add delay to make buttons appear after the text
           className='flex flex-row items-center space-x-20'
         >
-          <HoverBorderGradient>
+          <HoverBorderGradient className="min-w-[190px]">
             <span>Admission Form</span>
           </HoverBorderGradient>
-          <HoverBorderGradient>
-            <span>Our Specialities</span>
+          <HoverBorderGradient className="min-w-[190px]">
+            <span>MQ Enrollment</span>
           </HoverBorderGradient>
+
         </motion.div>
       </div>
     </HeroHighlight>
