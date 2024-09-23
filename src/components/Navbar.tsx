@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { ProductItem, HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
+import { ProductItem, Menu, MenuItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
