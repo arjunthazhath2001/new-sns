@@ -15,7 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "SNS Groups",
+  title: "New SNS-Groups",
   description: "Sincerity, Nobility, Service",
 };
 
