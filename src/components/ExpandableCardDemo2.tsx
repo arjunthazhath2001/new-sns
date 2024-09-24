@@ -212,9 +212,7 @@ const cards = [
       content: () => {
         return (
           <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City.
+            Dr. SNS Rajalakshmi College of Arts and Science, provides world-class education to learners from all sections of society, ensuring accessibility and academic excellence.
           </p>
         );
       },
@@ -228,10 +226,7 @@ const cards = [
       content: () => {
         return (
           <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City.
- 
+SNS College of Technology, Coimbatore, is renowned for excellence in teaching, learning, and research in various fields of engineering and technology. 
           </p>
         );
       },
@@ -246,9 +241,7 @@ const cards = [
       content: () => {
         return (
           <p>
-           Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City.
+     SNS College of Engineering, known for quality education, produces internationally recognized engineers and entrepreneurs with its renowned system.
            </p>
         );
       },
@@ -262,10 +255,9 @@ const cards = [
       content: () => {
         return (
           <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City.
-          </p>
+SNS College of Pharmacy, produces holistic, industry-ready graduates with strong social awareness, adding value to their family, society, and nation.
+
+</p>
         );
       },
     },
@@ -278,9 +270,7 @@ const cards = [
       content: () => {
         return (
           <p>
-            Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-            her melancholic and cinematic music style. Born Elizabeth Woolridge
-            Grant in New York City.
+          SNS College of Allied Health Sciences, provides cutting-edge medical education with a focus on distinguished teaching and learning environments for students.
           </p>
         );
       },
