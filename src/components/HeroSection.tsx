@@ -1,12 +1,14 @@
 "use client";
 
-import React, { useEffect, useState, useRef } from 'react';
-import { motion } from 'framer-motion';
-import { HeroHighlight, Highlight } from './ui/hero-highlight';
-import { HoverBorderGradient } from './ui/hover-border-gradient';
+import React, { useEffect, useState, useRef } from "react";
+import { motion } from "framer-motion";
+import { HeroHighlight, Highlight } from "./ui/hero-highlight";
+import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import { SignupModal } from "./SignupModal"; // Import the SignupModal
 
 export default function HeroSection() {
   const [isVisible, setIsVisible] = useState(false);
+  const [showSignup, setShowSignup] = useState(false); // State for modal visibility
   const sectionRef = useRef(null);
 
   // Intersection Observer to track when the section is visible
@@ -34,33 +36,37 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <HeroHighlight>
-      <div className='flex flex-col justify-center items-center' ref={sectionRef}>
-        <motion.span
-          initial={{ opacity: 0, y: 20 }} // Start invisible and slightly lower on the Y-axis
-          animate={isVisible ? { opacity: 1, y: 0 } : {}} // Animate to visible and move up when the section is visible
-          transition={{ duration: 0.75 }} // Control the duration of the fade-in
-          className="text-3xl font-black text-center leading-relaxed pb-20"
-        >
-          The first Indian institution to patent & implement
-          <br />
-          <Highlight>design thinking framework in education.</Highlight>
-        </motion.span>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={isVisible ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.2 }} // Add delay to make buttons appear after the text
-          className='flex flex-row items-center space-x-20'
-        >
-          <HoverBorderGradient className="min-w-[190px]">
-            <span>Admission Form</span>
-          </HoverBorderGradient>
-          <HoverBorderGradient className="min-w-[190px]">
-            <span>MQ Enrollment</span>
-          </HoverBorderGradient>
+    <>
+      <HeroHighlight>
+        <div className="flex flex-col justify-center items-center" ref={sectionRef}>
+          <motion.span
+            initial={{ opacity: 0, y: 20 }} // Start invisible and slightly lower on the Y-axis
+            animate={isVisible ? { opacity: 1, y: 0 } : {}} // Animate to visible and move up when the section is visible
+            transition={{ duration: 0.75 }} // Control the duration of the fade-in
+            className="text-3xl font-black text-center leading-relaxed pb-20"
+          >
+            The first Indian institution to patent & implement
+            <br />
+            <Highlight>design thinking framework in education.</Highlight>
+          </motion.span>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={isVisible ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.5, delay: 0.2 }} // Add delay to make buttons appear after the text
+            className="flex flex-row items-center space-x-20"
+          >
+            <HoverBorderGradient className="min-w-[190px]" onClick={() => setShowSignup(true)}>
+              <span>Admission Form</span>
+            </HoverBorderGradient>
+            <HoverBorderGradient className="min-w-[190px]">
+              <span>MQ Enrollment</span>
+            </HoverBorderGradient>
+          </motion.div>
+        </div>
+      </HeroHighlight>
 
-        </motion.div>
-      </div>
-    </HeroHighlight>
+      {/* Modal for Signup Form */}
+      <SignupModal isOpen={showSignup} onClose={() => setShowSignup(false)} />
+    </>
   );
 }
