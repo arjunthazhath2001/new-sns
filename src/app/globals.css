@@ -99,19 +99,19 @@ body {
   position: fixed;
   top: 25px;
   right: 60px;
-  z-index: 1000;
+  z-index: 800;
 }
 .sns {
   position: fixed;
   top: 25px;
   left: 60px;
-  z-index: 1000;
+  z-index: 800;
 }
 .bar {
   position: fixed;
   top: 25px;
   right: 135px;
-  z-index: 1000;
+  z-index: 800;
 }
 
 /* For Webkit browsers */

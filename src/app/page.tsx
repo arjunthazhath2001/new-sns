@@ -4,6 +4,9 @@ import HeroSection from "@/components/HeroSection";
 import TrackRecord from "@/components/TrackRecord";
 import Gallery from "@/components/Gallery";
 import RecInstitutes from "@/components/RecInstitutes";
+import SuccessStories from "@/components/SuccessStories";
+import BeyondEducation from "@/components/BeyondEducation";
+import Institutions from "@/components/Institutions";
 
 
 export default function Home() {
@@ -13,6 +16,9 @@ export default function Home() {
         <Gallery/>
         <TrackRecord/>
         <DesignThinking/>
+        <Institutions/>
+        <SuccessStories/>
+        <BeyondEducation/>
         <RecInstitutes/>
         <ContactSocial/>
       </div>
