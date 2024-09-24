@@ -71,11 +71,11 @@ export function ExpandableCardDemo2() {
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <Image
                   priority
-                  width={200}
-                  height={200}
+                  width={500}
+                  height={500}
                   src={active.src}
                   alt={active.title}
-                  className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-top"
+                  className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-center"
                 />
               </motion.div>
 
@@ -138,7 +138,7 @@ export function ExpandableCardDemo2() {
                   height={100}
                   src={card.src}
                   alt={card.title}
-                  className="h-32 w-32 md:h-14 md:w-14 rounded-lg object-cover object-top"
+                  className="h-32 w-32 md:h-14 md:w-14 rounded-lg object-cover object-center"
                 />
               </motion.div>
               <div className="">
@@ -202,7 +202,6 @@ export const CloseIcon = () => {
     </motion.svg>
   );
 };
-
 const cards = [
     {
       description: "Accredited by NAAC-UGC with 'A+' Grade",
@@ -271,7 +270,7 @@ const cards = [
       },
     },
     {
-      description: "Affiliated to the TN Dr.MGR Medical University",
+      description: "Affiliated to the TN Dr MGR Medical University",
       title: "SNS College of Allied Health Sciences",
       src: "/images/card10.png",
       ctaText: "CLICK HERE",
