@@ -205,7 +205,7 @@ export const CloseIcon = () => {
 
 const cards = [
     {
-      description: "",
+      description: "Accredited by NAAC-UGC with 'A+' Grade",
       title: "Dr.SNS Rajalakshmi College of Arts and Sciences",
       src: "/images/card6.png",
       ctaText: "CLICK HERE",
@@ -221,7 +221,7 @@ const cards = [
       },
     },
     {
-      description: "Babbu Maan",
+      description: "Accredited by NAAC with 'A++' Grade",
       title: "SNS College of Technology",
       src: "/images/card7.png",
       ctaText: "CLICK HERE",
@@ -239,7 +239,7 @@ const cards = [
     },
   
     {
-      description: "Metallica",
+      description: "Accredited by NAAC-UGC with 'A' Grade",
       title: "SNS College of Engineering",
       src: "/images/card8.png",
       ctaText: "CLICK HERE",
@@ -255,7 +255,7 @@ const cards = [
       },
     },
     {
-      description: "Led Zeppelin",
+      description: "Affiliated to the TN Dr.MGR Medical University",
       title: "SNS College of Pharmacy and Health Sciences",
       src: "/images/card9.png",
       ctaText: "CLICK HERE",
@@ -271,7 +271,7 @@ const cards = [
       },
     },
     {
-      description: "Mustafa Zahid",
+      description: "Affiliated to the TN Dr.MGR Medical University",
       title: "SNS College of Allied Health Sciences",
       src: "/images/card10.png",
       ctaText: "CLICK HERE",

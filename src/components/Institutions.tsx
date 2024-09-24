@@ -11,7 +11,7 @@ export default function Institutions() {
       </div>
       
       {/* Right Column for the Expandable Cards */}
-      <div className="flex-[0.7] grid grid-cols-2 gap-12">
+      <div className="flex-[0.7] grid grid-cols-2 gap-4">
         {/* First column of 5 cards */}
         <div className="flex flex-col gap-4">
           <ExpandableCardDemo1/>

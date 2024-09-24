@@ -256,7 +256,7 @@ const cards = [
       },
     },
     {
-      description: "Led Zeppelin",
+      description: "Affiliated to the TN Dr.MGR Medical University",
       title: "SNS College of Nursing",
       src: "/images/card4.png",
       ctaText: "CLICK HERE",
@@ -272,7 +272,7 @@ const cards = [
       },
     },
     {
-      description: "Mustafa Zahid",
+      description: "Affiliated to the TN Dr.MGR Medical University",
       title: "SNS College of Physiotherapy",
       src: "/images/card5.png",
       ctaText: "CLICK HERE",
