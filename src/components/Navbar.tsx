@@ -21,25 +21,25 @@ function Navbar({ className }: { className?: string }) {
             <ProductItem
               title="Our Leaders"
               href="#"
-              src="/images/dropdown1.svg"
+              src="/images/dropdown1.png"
               description="Meet the visionary leaders behind our institution"
             />
             <ProductItem
               title="Differentiators"
               href="#"
-              src="/images/dropdown2.svg"
+              src="/images/dropdown2.png"
               description="Discover what sets our institution apart"
             />
             <ProductItem
               title="Student Life"
               href="#"
-              src="/images/dropdown3.svg"
+              src="/images/dropdown3.png"
               description="Experience the vibrant student life at SNS"
             />
             <ProductItem
               title="Publications"
               href="#"
-              src="/images/dropdown4.svg"
+              src="/images/dropdown4.png"
               description="Explore for the latest insights and updates at SNS"
             />
           </div>
@@ -52,26 +52,26 @@ function Navbar({ className }: { className?: string }) {
             <ProductItem
               title="Jobs at SNS"
               href="#"
-              src="/images/jobs1.svg"
+              src="/images/jobs1.png"
               description="Explore jobs at SNS Groups"
             />
             <ProductItem
               title="Internships"
               href="#"
-              src="/images/jobs2.svg"
+              src="/images/jobs2.png"
               description="Internship openings for freshers"
             />
 
             <ProductItem
               title="Jobs for Alumni"
               href="#"
-              src="/images/jobs3.svg"
+              src="/images/jobs3.png"
               description="Jobs curated for SNS Alumni"
             />
             <ProductItem
               title="Non-alumni Jobs"
               href="#"
-              src="/images/jobs4.svg"
+              src="/images/jobs4.png"
               description="Jobs curated for Non-SNS students"
             />
           </div>
@@ -82,26 +82,26 @@ function Navbar({ className }: { className?: string }) {
             <ProductItem
               title="Upcoming Events"
               href="#"
-              src="/images/news1.svg"
+              src="/images/news1.png"
               description="What's next at SNS?"
             />
             <ProductItem
               title="Recent Events"
               href="#"
-              src="/images/news2.svg"
+              src="/images/news2.png"
               description="Recent happenings at SNS"
             />
 
             <ProductItem
               title="Student Achievements"
               href="#"
-              src="/images/news3.svg"
+              src="/images/news3.png"
               description="Recent achievements of SNS students"
             />
             <ProductItem
               title="Media Coverage"
               href="#"
-              src="/images/news4.svg"
+              src="/images/news4.png"
               description="SNS in newspapers & media"
             />
           </div>
