@@ -52,11 +52,11 @@ const dummyContent = [
     title: "Dr. S. Rajalakshmi",
     description: (
       <>
-<p>Dr. S. RAJALAKSHMI is an Obstetrician &amp; Gynecologist who served at top hospitals like Eswaran Polyclinic and CSI Hospital. Over her 20-year career, she performed more than a thousand surgeries, helping families grow and earning widespread respect for her medical expertise.</p>
+<p>Dr. S. RAJALAKSHMI is an Obstetrician &amp; Gynecologist who served at top hospitals like Eswaran Polyclinic and CSI Hospital. Over her 20-year career, she performed more than a thousand surgeries, helping families grow and earned widespread respect for her medical expertise.</p>
 <br></br>
 <p>She later expanded into social and educational activities. Along with her husband, a Textile Technocrat, she manages Sri SNS Charitable Trust. Her relentless efforts have broken stereotypes about women in leadership, making a lasting impact.</p>
 <br></br>
-<p>As Correspondent of SNS institutions, she actively supports their growth. She has won honors like &quot;Best Women Entrepreneur Award&quot; and &quot;Gold Star Award&quot; for her outstanding contributions to education and industry.</p>
+<p>As Correspondent of SNS institutions, she actively supports their growth. She has won honors like &quot;Best Women Entrepreneur Award&quot; and &quot;Gold Star Award&quot; for her outstanding contributions to the educational industry.</p>
   
 </>
     ),
