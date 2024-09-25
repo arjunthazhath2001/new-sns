@@ -65,7 +65,7 @@ export default function RecInstitutes() {
       <div className='flex flex-col items-center space-y-2 text-center'>
         <Highlight>
           <span className='text-3xl py-4 font-black text-black dark:text-white'>
-            Our Ventures
+            Our Industries
           </span>
         </Highlight>
         <InfiniteMovingCards items={items1} direction="left" />

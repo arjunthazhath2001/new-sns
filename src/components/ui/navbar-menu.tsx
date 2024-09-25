@@ -1,6 +1,5 @@
-"use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { LinkProps } from "next/link"; // Import the LinkProps type
@@ -20,7 +19,7 @@ export const MenuItem = ({
   item,
   children,
 }: {
-  setActive: (item: string) => void;
+  setActive: (item: string | null) => void;
   active: string | null;
   item: string;
   children?: React.ReactNode;
@@ -33,30 +32,35 @@ export const MenuItem = ({
       >
         {item}
       </motion.p>
-      {active !== null && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.85, y: 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={transition}
-        >
-          {active === item && children && (
-            <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-0">
-              <motion.div
-                transition={transition}
-                layoutId="active" // layoutId ensures smooth animation
-                className="bg-white border dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden dark:border-white/[0.2]"
-              >
+      {/* Wrap the dropdown content with AnimatePresence */}
+      <AnimatePresence>
+        {active === item && (
+          <motion.div
+            key={item} // Important for AnimatePresence to track the key
+            initial={{ opacity: 0, scale: 0.85, y: 10 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.85, y: 10 }} // Smooth exit animation
+            transition={transition}
+          >
+            {children && (
+              <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-0">
                 <motion.div
-                  layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
+                  transition={transition}
+                  layoutId="active" // layoutId ensures smooth animation
+                  className="bg-white border dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden dark:border-white/[0.2]"
                 >
-                  {children}
+                  <motion.div
+                    layout // layout ensures smooth animation
+                    className="w-max h-full p-4"
+                  >
+                    {children}
+                  </motion.div>
                 </motion.div>
-              </motion.div>
-            </div>
-          )}
-        </motion.div>
-      )}
+              </div>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
@@ -78,34 +82,43 @@ export const Menu = ({
   );
 };
 
+
 export const ProductItem = ({
   title,
   description,
   href,
   src,
+  setActive,
 }: {
   title: string;
   description: string;
   href: string;
   src: string;
+  setActive: (item: string | null) => void; // Pass setActive function as a prop
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
-      <Image
-        src={src}
-        width={140}
-        height={70}
-        alt={title}
-        className="flex-shrink-0 rounded-md shadow-md"
-      />
-      <div>
-        <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
-          {title}
-        </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
-          {description}
-        </p>
-      </div>
+    <Link href={href}>
+      <motion.div
+        className="flex space-x-2 cursor-pointer"
+        onClick={() => setActive(null)} // Close dropdown when an item is clicked
+        whileTap={{ scale: 0.95 }} // Optional: Add a tap effect for interaction feedback
+      >
+        <Image
+          src={src}
+          width={140}
+          height={70}
+          alt={title}
+          className="flex-shrink-0 rounded-md shadow-md"
+        />
+        <div>
+          <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
+            {title}
+          </h4>
+          <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
+            {description}
+          </p>
+        </div>
+      </motion.div>
     </Link>
   );
 };
