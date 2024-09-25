@@ -4,8 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import TrackRecord from "@/components/TrackRecord";
 import Gallery from "@/components/Gallery";
 import RecInstitutes from "@/components/RecInstitutes";
-import SuccessStories from "@/components/SuccessStories";
-import BeyondEducation from "@/components/BeyondEducation";
+// import SuccessStories from "@/components/SuccessStories";
 import Institutions from "@/components/Institutions";
 
 
@@ -17,8 +16,7 @@ export default function Home() {
         <TrackRecord/>
         <DesignThinking/>
         <Institutions/>
-        <SuccessStories/>
-        <BeyondEducation/>
+        {/* <SuccessStories/> */}
         <RecInstitutes/>
         <ContactSocial/>
       </div>

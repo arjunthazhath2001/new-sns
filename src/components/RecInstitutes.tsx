@@ -39,10 +39,6 @@ export default function RecInstitutes() {
     { image: "/images/logo4.png" },
     { image: "/images/logo5.png" },
     { image: "/images/logo6.png" },
-    { image: "/images/logo7.png" },
-    { image: "/images/logo8.png" },
-    { image: "/images/logo9.png" },
-    { image: "/images/logo10.png" },
   ];
 
   const items2 = [
@@ -69,7 +65,7 @@ export default function RecInstitutes() {
       <div className='flex flex-col items-center space-y-2 text-center'>
         <Highlight>
           <span className='text-3xl py-4 font-black text-black dark:text-white'>
-            Our Institutions
+            Our Ventures
           </span>
         </Highlight>
         <InfiniteMovingCards items={items1} direction="left" />
