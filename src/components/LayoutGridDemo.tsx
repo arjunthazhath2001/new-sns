@@ -15,12 +15,11 @@ const SkeletonOne = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House in the woods
+        Humble Beginnings
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
+        Established in 1997 with a philanthropic outlook of serving people in the fields of education and healthcare.
       </p>
     </div>
   );
@@ -30,13 +29,11 @@ const SkeletonTwo = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        House above the clouds
+        The Two Pillars
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a
-        unique living experience. It&apos;s a place where the sky meets home,
-        and tranquility is a way of life.
+        Dr S N Subbramanian and Dr S Rajalaskhmi laid the foundation for what SNS institutions is today.
       </p>
     </div>
   );
@@ -45,12 +42,11 @@ const SkeletonThree = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Greens all over
+         Harmony & Happiness
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+      In this journey filled with ups and downs, only a supportive companion can help you go far.
       </p>
     </div>
   );
@@ -59,12 +55,11 @@ const SkeletonFour = () => {
   return (
     <div>
       <p className="font-bold md:text-4xl text-xl text-white">
-        Rivers are serene
+        The Taste of Success
       </p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the
-        perfect place to relax, unwind, and enjoy life.
+        SNS institutions started to gain popularity among people for its quality of education.
       </p>
     </div>
   );
@@ -75,7 +70,7 @@ const cards = [
       id: 1,
       content: <SkeletonOne />,
       className: "md:col-span-2",
-      thumbnail: "/images/thumbnail4.png", // Local image from public/images
+      thumbnail: "/images/thumbnail2.png", // Local image from public/images
     },
     {
       id: 2,
@@ -93,7 +88,7 @@ const cards = [
       id: 4,
       content: <SkeletonFour />,
       className: "md:col-span-2",
-      thumbnail: "/images/thumbnail2.png", // Local image from public/images
+      thumbnail: "/images/thumbnail4.png", // Local image from public/images
     },
   ];
   
