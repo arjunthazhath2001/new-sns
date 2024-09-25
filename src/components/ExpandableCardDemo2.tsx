@@ -208,7 +208,7 @@ const cards = [
       title: "Dr.SNS Rajalakshmi College of Arts and Sciences",
       src: "/images/card6.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://drsnsrcas.ac.in/",
       content: () => {
         return (
           <p>
@@ -222,7 +222,7 @@ const cards = [
       title: "SNS College of Technology",
       src: "/images/card7.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snsct.org/",
       content: () => {
         return (
           <p>
@@ -237,7 +237,7 @@ SNS College of Technology, Coimbatore, is renowned for excellence in teaching, l
       title: "SNS College of Engineering",
       src: "/images/card8.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snsce.ac.in/",
       content: () => {
         return (
           <p>
@@ -251,7 +251,7 @@ SNS College of Technology, Coimbatore, is renowned for excellence in teaching, l
       title: "SNS College of Pharmacy and Health Sciences",
       src: "/images/card9.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snscphs.org/",
       content: () => {
         return (
           <p>
@@ -266,7 +266,7 @@ SNS College of Pharmacy, produces holistic, industry-ready graduates with strong
       title: "SNS College of Allied Health Sciences",
       src: "/images/card10.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snscahs.org/",
       content: () => {
         return (
           <p>

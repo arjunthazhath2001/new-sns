@@ -210,7 +210,7 @@ const cards = [
       title: "SNS Academy",
       src: "/images/card1.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snsacademy.org/",
       content: () => {
         return (
           <p>
@@ -224,7 +224,7 @@ SNS Academy, a CBSE school, blends Indian traditions and modern technology in an
       title: "SNS College of Education",
       src: "/images/card2.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "http://drsnsce.edu.in/",
       content: () => {
         return (
           <p>
@@ -239,7 +239,7 @@ Dr. SNS College of Education, shapes noble teachers with knowledge, virtue, and 
       title: "SNS B-SPINE",
       src: "/images/card3.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snsbschool.in/",
       content: () => {
         return (
           <p>
@@ -254,7 +254,7 @@ Dr. SNS College of Education, shapes noble teachers with knowledge, virtue, and 
       title: "SNS College of Physiotherapy",
       src: "/images/card5.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snscphysio.org/",
       content: () => {
         return (
           <p>
@@ -270,7 +270,7 @@ Dr. SNS College of Education, shapes noble teachers with knowledge, virtue, and 
       title: "SNS College of Nursing",
       src: "/images/card4.png",
       ctaText: "CLICK HERE",
-      ctaLink: "https://ui.aceternity.com/templates",
+      ctaLink: "https://snscnursing.org/",
       content: () => {
         return (
           <p>
