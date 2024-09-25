@@ -41,7 +41,7 @@ const dummyContent = [
     title: "Dr. S. N. Subbramanian",
     description: (
       <>
-        <p> Born in an agricultural family near Annur, Coimbatore District, he climbed to success in his own way, setting an example for the younger generation. He ranked 3rd in B. Tech at PSG College of Technology in 1972 and 1st in M. Tech at IIT Delhi in 1975.
+        <p> Dr. S. N. Subbramanian, born in an agricultural family near Annur, Coimbatore District, he climbed to success in his own way, setting an example for the younger generation. He ranked 3rd in B. Tech at PSG College of Technology in 1972 and 1st in M. Tech at IIT Delhi in 1975.
           <br></br> <br></br> He later earned an MBA from IBAM in New Delhi in 1986. He was awarded an M. Phil from Alagappa University in 2004. He earned two PhDs: in Engineering & Technology from Anna University in 2005 and in Management from the USA in 2008. With 45 years of experience across academics, research, and industry, he spent 20 years in academics and 25 years in industry. </p><br></br> <p> He developed colleges under Sri. SNS Charitable Trust, which gained recognition for academic excellence. His work led to SNS College of Technology ranking 4th in Coimbatore. His efforts helped achieve ISO certification and introduced innovative educational practices. </p>
       </>
     ),
