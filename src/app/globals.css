@@ -114,6 +114,17 @@ body {
   z-index: 800;
 }
 
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
 @font-face {
   font-family: 'CalSans';
   src: url('/fonts/CalSans-SemiBold.woff2') format('woff2'),
