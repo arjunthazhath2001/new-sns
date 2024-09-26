@@ -7,7 +7,7 @@ export default function Institutions() {
     <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-between relative mx-auto px-4'>
       {/* Left Column for the Title */}
       <div className="flex-[0.3] flex justify-center items-center">
-        <h1 className="text-5xl font-extrabold text-black dark:text-white">OUR INSTITUTIONS</h1>
+        <span className="text-5xl font-extrabold text-black dark:text-white">OUR <span className='text-yellow-400'>INSTITUTIONS</span> </span>
       </div>
       
       {/* Right Column for the Expandable Cards */}
