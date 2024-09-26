@@ -13,19 +13,19 @@ export function ThreeDCardDemo() {
         title="Souvenir"
         description="Celebrating 25 years of SNS groups"
         imageSrc="/images/mag1.png"
-        pdfSrc="/souvenir1.pdf"
+        pdfSrc=""
       />
       <Card
         title="Info Brochure"
         description="Another milestone achievement"
         imageSrc="/images/mag2.png"
-        pdfSrc="/souvenir2.pdf"
+        pdfSrc=""
       />
       <Card
         title="Alumni Testimonials"
         description="Special edition SNS groups"
         imageSrc="/images/mag3.png"
-        pdfSrc="/souvenir3.pdf"
+        pdfSrc=""
       />
 
       {/* Second Row */}
@@ -33,19 +33,19 @@ export function ThreeDCardDemo() {
         title="Souvenir"
         description="Celebrating 25 years of SNS groups"
         imageSrc="/images/mag1.png"
-        pdfSrc="/souvenir1.pdf"
+        pdfSrc=""
       />
       <Card
         title="Info Brochure"
         description="Another milestone achievement"
         imageSrc="/images/mag2.png"
-        pdfSrc="/souvenir2.pdf"
+        pdfSrc=""
       />
       <Card
         title="Alumni Testimonials"
         description="Special edition SNS groups"
         imageSrc="/images/mag3.png"
-        pdfSrc="/souvenir3.pdf"
+        pdfSrc=""
       />
 
       {/* Third Row */}
@@ -53,19 +53,19 @@ export function ThreeDCardDemo() {
         title="Souvenir"
         description="Celebrating 25 years of SNS groups"
         imageSrc="/images/mag1.png"
-        pdfSrc="/souvenir1.pdf"
+        pdfSrc=""
       />
       <Card
         title="Info Brochure"
         description="Another milestone achievement"
         imageSrc="/images/mag2.png"
-        pdfSrc="/souvenir2.pdf"
+        pdfSrc=""
       />
       <Card
         title="Alumni Testimonials"
         description="Special edition SNS groups"
         imageSrc="/images/mag3.png"
-        pdfSrc="/souvenir3.pdf"
+        pdfSrc=""
       />
     </div>
   );
